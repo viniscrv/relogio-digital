@@ -13,7 +13,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .relogio {

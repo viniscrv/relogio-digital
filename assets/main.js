@@ -15,5 +15,11 @@ const relogio = setInterval(function time() {
     horas.textContent = hr;
     minutos.textContent = min;
     segundos.textContent = s;
-
 })
+
+function mudaBackground() {
+    corpo.classList.toggle('background');
+}
+
+let corpo = document.querySelector('body');
+corpo.addEventListener('keydown', mudaBackground);
